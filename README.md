@@ -7,6 +7,11 @@ Alat dan bahan:
 - Kabel = secukupnya
 - HP terinstal Blynk
 
+Berikut ini gambar rangkaiannya.
+
+![ESP32_Relay_Lampu](https://github.com/nurrohim8/IOT-Lamp-Blynk/assets/171478367/6ad1d9ac-0581-44cb-be42-dab14f356ee9)
+
+
 Sesuaikan auth token sesuai dengan kelompok.
 
 KELOMPOK 1:
