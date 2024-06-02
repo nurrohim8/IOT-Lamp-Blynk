@@ -1,9 +1,9 @@
-Program ini untuk praktikum kendali 2 buah lampu dengan mikrokontroler ESP32 dan Blynk.
+Program ini untuk praktikum kendali lampu dengan mikrokontroler ESP32 dan Blynk.
 
 Alat dan bahan:
 - ESP32 = 1 pcs
-- Relay 5V = 2 pcs
-- Lampu = 2 pcs
+- Relay 5V = 1 pcs
+- Lampu = 1 pcs
 - Kabel = secukupnya
 - HP terinstal Blynk
 
@@ -33,3 +33,5 @@ KELOMPOK 4:
 #define BLYNK_TEMPLATE_ID "TMPL6aPtqoOXE"
 #define BLYNK_TEMPLATE_NAME "Quickstart Template"
 #define BLYNK_AUTH_TOKEN "PM9oVoGsMN4UAE12vmOdlAVlaEEsbDyd"
+
+NOTE: Jumlah lampu dan relay bisa ditambah, sesuai dengan kreativitas untuk mengembangkan rangkaian lebih lanjut.
