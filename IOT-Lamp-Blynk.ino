@@ -45,13 +45,13 @@ BLYNK_WRITE(V0)
   else{nLampu1=false;}              //Jika V0=0, maka kondisi lampu false
 }
 
-BLYNK_WRITE(V2)
+BLYNK_WRITE(V1)
 {
-  int pinValue1 = param.asInt();    //Mendapatkan data dari virtual pin Blynk V2
+  int pinValue1 = param.asInt();    //Mendapatkan data dari virtual pin Blynk V1
 
   // process received value
-  if(pinValue1 == 1){nLampu2=true;} //Jika V2=1, maka kondisi lampu true
-  else{nLampu2=false;}              //Jika V2=0, maka kondisi lampu false
+  if(pinValue1 == 1){nLampu2=true;} //Jika V1=1, maka kondisi lampu true
+  else{nLampu2=false;}              //Jika V1=0, maka kondisi lampu false
 }
 
 void setup()
